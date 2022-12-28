@@ -1,3 +1,3 @@
 <h1 align="center">
-  Goban's Blog
+  [Goban's Blog](https://gobanest.com)
 </h1>
