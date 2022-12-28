@@ -1,7 +1,7 @@
 [build]
   publish = "public"
-  command = "npm run build"
+  command = "yarn start"
 [build.environment]
-  NODE_VERSION = "14"
-  NPM_VERSION = "7.6.0"
+  NODE_VERSION = "19.3.0"
+  NPM_VERSION = "9.2.0"
 
