@@ -72,7 +72,7 @@ ogImage: '/og-image.png', // 공유할 때 보이는 미리보기 이미지로 '
 ```js
 comments: {
     utterances: {
-        repo: '' // zoomkoding/zoomkoding-gatsby-blog
+        repo: 'Gobans/gobanest-blog'
     },
 }
 
