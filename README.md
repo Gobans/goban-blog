@@ -1,3 +1,5 @@
-<h1 align="center">
-  [Goban's Blog](https://gobanest.com)
-</h1>
+<h2 align="center">
+
+[Goban's Blog](https://gobanest.com)
+
+</h2>
