@@ -15,7 +15,7 @@ module.exports = {
     bio: {
       role: `개발자`,
       description: ['시작이 반이다.'],
-      thumbnail: 'goban.png', // Path to the image in the 'asset' folder
+      thumbnail: 'syncswift.png', // Path to the image in the 'asset' folder
     },
     social: {
       github: `https://github.com/Gobans`, 
