@@ -11,10 +11,10 @@ module.exports = {
   },
   ga: '0', // Google Analytics Tracking ID
   author: {
-    name: `이명환`,
+    name: `고반`,
     bio: {
       role: `개발자`,
-      description: ['항상 도전하는', '수영을 좋아하는'],
+      description: ['시작이 반이다.'],
       thumbnail: 'goban.png', // Path to the image in the 'asset' folder
     },
     social: {
