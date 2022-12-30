@@ -102,10 +102,11 @@
 
   .thumbnail-wrapper {
     display: none;
-    border-radius: 70%;
-
     @include md {
       display: block;
+    }
+    picture > img {
+      border-radius: 50%;
     }
   }
 }
