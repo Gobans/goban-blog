@@ -1,7 +1,7 @@
 ---
 emoji: 🧶
-title: 알고리즘 템플릿
-date: '2022-12-30 00:00:00'
+title: '[프로그래머스]'
+date: '2023-01-00 00:00:00'
 author: 고반
 tags: 알고리즘
 categories: Algorithm
@@ -9,9 +9,9 @@ categories: Algorithm
 
 ## 1. 문제
 
-`백준`
+`프로그래머스`
 
-[[2557] Hello world](https://www.acmicpc.net/problem/2557)
+[고득점 Kit Hello world](https://www.acmicpc.net/problem/2557)
 
 
 <br/>
