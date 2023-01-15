@@ -121,7 +121,7 @@ func solution(_ k:Int, _ dungeons:[[Int]]) -> Int {
 
 |<center>DFS Enumerated<center/>|<center>DFS<center/>|
 | :---: | ---: | 
-|![DFS Enumerated.png](DFS%20Enumerated.png)|![DFS.png](DFS.png)|
+|![DFSEnumerated.png](DFSEnumerated.png)|![DFS.png](DFS.png)|
 
 보다시피 테스트 8번에서 134 -> 40 이라는 엄청난 차이가 있다.
 
