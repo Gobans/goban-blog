@@ -92,14 +92,6 @@ def solution(routes):
 
 <br/>
 
-## 5. 다른 사람의 코드
-
-```swift
-
-```
-
-<br/>
-
 
 ```toc
 
