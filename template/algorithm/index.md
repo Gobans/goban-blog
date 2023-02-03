@@ -1,7 +1,7 @@
 ---
 emoji: 🧶
 title: '[프로그래머스]'
-date: '2023-01-00 00:00:00'
+date: '2023-02-00 00:00:00'
 author: 고반
 tags: 알고리즘
 categories: Algorithm
