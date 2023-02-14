@@ -1,5 +1,5 @@
 ---
-emoji: 🧶
+emoji: 🧐
 title: '[Swift-뜯어보기] xcode 에디터로 뜯어볼 준비하기'
 date: '2023-02-06 00:00:00'
 author: 고반
