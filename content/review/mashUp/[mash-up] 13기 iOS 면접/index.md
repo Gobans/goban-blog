@@ -3,8 +3,8 @@ emoji: 🧶
 title: '[mash-up] 13기 iOS 면접 후기'
 date: '2023-02-04 00:00:00'
 author: 고반
-tags: mash-up
-categories: mash-up
+tags: review
+categories: review
 ---
 
 ## 언제
@@ -129,6 +129,14 @@ categories: mash-up
 복기를 해보니까 틀리게 대답한 부분도 있고, 명확하게 대답하지 못한 부분도 있어서 정말 모르겠다.
 
 결론 **면까몰..**
+
+<br/>
+
+## 결과
+
+2월 7일 아쉽게도 면접 불합격 통보를 받았다.
+
+아쉽지만 다른 일들에 집중하기로 했다!
 
 
 ```toc
