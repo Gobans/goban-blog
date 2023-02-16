@@ -30,6 +30,11 @@ categories: Algorithm
 
 ## 4. 풀이 과정
 
+|<center>title<center/>|<center>title<center/>|
+| :---: | ---: |
+|![e.png](e.png)|![e.png](e.png)|
+
+
 <br/>
 
 ## 5. 다른 사람의 코드
