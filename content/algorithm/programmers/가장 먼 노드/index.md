@@ -115,8 +115,6 @@ func solution(_ n:Int, _ edge:[[Int]]) -> Int {
 
 그런데 이 풀이에서는 중복값을 제거하기위해 Node를 담는 배열에 Set을 사용하였다 했는데, 사실은 isVisited 배열이 중복을 체킹해주고 있어서 중복값이 들어갈일은 없다.
 
-다만 시간초에서 유의미한 차이가 발생해서 Set 과 Array의 iteration 속도를 한번 실험으로 측정해볼생각이다. (업데이트 예정)
-
 <br/>
 
 |<center>[Set]()<center/>|<center>[Array]()<center/>|
@@ -125,7 +123,9 @@ func solution(_ n:Int, _ edge:[[Int]]) -> Int {
 
 <br/>
 
-(Node를 담는 배열을 각각 Set과 Array로 했을 때 시간차이)
+다만 시간초에서 유의미한 차이가 발생해서 Set 과 Array의 iteration 속도를 한번 실험으로 측정해봤다.
+
+[Array와 Set의 속도 차이](https://gobanest.com/swift/[Swift]%20Array와%20Set/)
 
 
 <br/>

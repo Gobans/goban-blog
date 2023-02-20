@@ -346,11 +346,6 @@ Array의 Iterator는 우리가 쓰는 것 처럼 subscript를 사용하고있다
 
 hashTable의 Iterator를 보면 다음 bucket을 wordIndex와 다음 bit로 식별하여 Iteration 하고 있다.
 
-하지만 words는 UnsafeMutablePointer<Word>이고, 저장되는 값의 주소는 hashValue가 바뀜에 따라 word의 생성에서 매번 달라진다.
-
-때문에 매번 Set의 순서가 달라지는 것이다.
-
-<br/>
 <br/>
 
 Array와 Set의 '추가' 메소드의 성능차이를 보자면..
@@ -509,3 +504,7 @@ Array와 Set 모두 첫번째 원소를 제외한 원소들을 재할당하는 �
 실험도 하고 Swift 오픈소스 코드도 뜯어보며 원인을 찾아봤는데, 상세하게 파악하기에는 내용이 많이 어렵고 방대하여 흐름을 파악하는데 주력했다.
 
 결론적으로 추측성의 글을 적었는데, 조금 더 컴퓨터 지식을 쌓고 코드를 뜯어보면 더욱 더 명확한 결론을 내릴 수 있을 것이라 기대한다. 나의 CS 지식이 많이 부족하다고 다시한번 느꼈다.
+
+```toc
+
+```
