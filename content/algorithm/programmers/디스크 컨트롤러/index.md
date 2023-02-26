@@ -116,6 +116,62 @@ func solution(_ jobs:[[Int]]) -> Int {
 
 <br/>
 
+## 고민 후 (2023.02.26)
+
+tempJobs 를 없애고, 시작 시간으로 정렬된 jobs를 기반으로 heap에 job을 넣어주는 코드로 새롭게 작성해보았다.
+
+<br/>
+
+```swift
+func solution(_ jobs:[[Int]]) -> Int {
+    var now = 0
+    var totalTime = 0
+    var cJobs = jobs.sorted(by: { $0[0] > $1[0] })
+    var sortedJobs = Heap (sort: { (lhs: [Int], rhs: [Int]) in
+        return (lhs[1], lhs[0]) < (rhs[1], rhs[0])
+    })
+    while !cJobs.isEmpty || !sortedJobs.isEmpty {
+        while !cJobs.isEmpty && cJobs.last![0] <= now {
+            sortedJobs.insert(cJobs.removeLast())
+        }
+        if !sortedJobs.isEmpty {
+            let job = sortedJobs.remove()!
+            now += job[1]
+            totalTime += now - job[0]
+        } else {
+            now += 1
+        }
+    }
+    return totalTime / jobs.count
+}
+```
+
+<br/>
+
+그 결과...
+
+
+<br/>
+
+![refactorHeap.png](refactorHeap.png)
+
+<br/>
+
+오히려 시간이 더 늘었다..ㅋㅋ
+
+```swift
+var cJobs = jobs.sorted(by: { $0[0] > $1[0] })
+```
+
+보기에는 새롭게 리팩토링한 코드가 훨씬 깔끔한데
+
+정렬을 한번 더 해야해서 시간이 오히려 증가한 것 같다...
+
+<br/>
+
+깔끔 + 성능 향상은 못했지만
+
+오래만에 짰던 코드 다시 뜯어보고 고쳐보니까 재미있었다.
 
 ```toc
 
